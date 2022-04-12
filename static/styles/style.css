@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(227, 172, 179);
+}
+
+.container-fluid{
+    width: 100vw;
+    height: 100vh;
+}
+

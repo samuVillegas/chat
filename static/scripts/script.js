@@ -56,8 +56,9 @@ if(form_login !== null){
         }
     })
 }
-
-btn_google.addEventListener('click', () => {
-    logInGoogle();
-})
+if(btn_google !== null){
+    btn_google.addEventListener('click', () => {
+        logInGoogle();
+    })
+}
 
